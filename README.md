@@ -26,8 +26,8 @@ This project provides Python scripts to perform various assessments on Google Dr
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/google-drive-assessment.git
-   cd google-drive-assessment
+   git clone https://github.com/alizain5693/Netflix-Drive-Assessment.git
+   cd Netflix-Drive-Assessment
    ```
 
 2. Install the required packages:
@@ -81,6 +81,9 @@ You can run each assessment individually:
 ## Authentication
 
 The project uses OAuth 2.0 for authentication with the Google Drive API. On the first run, you'll be prompted to authorize the application. The resulting token will be saved to `token.json` for future use.
+
+You can also run `setup.py` independently to create and test the authentication service:
+This will initiate the OAuth2 flow, create the Google Drive service object, and verify the authentication. It's useful for troubleshooting authentication issues or when you want to ensure your credentials are properly set up before running the assessment scripts.
 
 ## Error Handling
 
