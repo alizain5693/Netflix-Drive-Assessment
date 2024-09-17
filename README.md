@@ -114,6 +114,23 @@ Contributions to improve the scripts or extend their functionality are welcome. 
 
 These improvements focus on enhancing the core functionality, usability, and reliability of the tool without expanding its scope.
 
+## Google API References
+
+This project uses the following components from Google's Python libraries:
+
+- [`google.oauth2.credentials.Credentials`](https://googleapis.dev/python/google-auth/latest/reference/google.oauth2.credentials.html#google.oauth2.credentials.Credentials)
+- [`google_auth_oauthlib.flow.InstalledAppFlow`](https://googleapis.dev/python/google-auth-oauthlib/latest/reference/google_auth_oauthlib.flow.html#google_auth_oauthlib.flow.InstalledAppFlow)
+- [`google.auth.transport.requests.Request`](https://googleapis.dev/python/google-auth/latest/reference/google.auth.transport.requests.html#google.auth.transport.requests.Request)
+- [`googleapiclient.discovery.build`](https://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.discovery-module.html#build)
+- [`googleapiclient.errors.HttpError`](https://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.errors.HttpError-class.html)
+- [`googleapiclient.http.MediaIoBaseDownload`](https://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.http.MediaIoBaseDownload-class.html)
+- [`googleapiclient.http.MediaIoBaseUpload`](https://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.http.MediaIoBaseUpload-class.html)
+
+Google Drive API v3 Files methods used:
+- [`drive_v3.files`](https://googleapis.github.io/google-api-python-client/docs/dyn/drive_v3.files.html)
+
+For more information on using the Google Drive API, refer to the [official documentation](https://developers.google.com/drive/api/v3/about-sdk).
+
 ## Author
 
 Zain Ali
