@@ -95,6 +95,22 @@ The scripts include error handling for common issues such as authentication prob
 
 Contributions to improve the scripts or extend their functionality are welcome. Please submit a pull request with your proposed changes.
 
+## Future Improvements
+
+1. **Performance Optimization**: Implement parallel processing for faster handling of large folder structures, especially during copy operations.
+
+2. **Enhanced User Interface**: Develop a simple GUI or command-line interface for improved user interaction and easier operation.
+
+3. **Progress Tracking**: Add a progress bar or more detailed status updates for long-running operations.
+
+4. **Advanced Reporting**: Implement customizable report formats and additional analytics on folder structures.
+
+5. **Robust Error Handling**: Enhance error recovery mechanisms, including automatic retries for failed operations.
+
+6. **Testing and Logging**: Develop a comprehensive test suite and improve logging for better debugging and maintenance.
+
+These improvements focus on enhancing the core functionality, usability, and reliability of the tool without expanding its scope.
+
 ## Author
 
 Zain Ali
